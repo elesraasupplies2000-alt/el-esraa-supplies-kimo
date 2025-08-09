@@ -647,3 +647,102 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ===================== */
+/* MOBILE RESPONSIVE CSS */
+/* ===================== */
+
+@media (max-width: 768px) {
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+  .headerLinks {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .headerLinks a {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  /* LANDING PAGE */
+  .landingPage {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .landingPage .slogan {
+    font-size: 28px;
+  }
+  .landingPage .description {
+    width: 100%;
+  }
+  .imageContainer {
+    margin-top: 20px;
+  }
+  .searchBar {
+    margin-top: 30px;
+  }
+  .searchBar input {
+    width: 80%;
+  }
+  .searchBar .searchBtn {
+    position: static;
+    margin-top: 10px;
+  }
+
+  /* TRENDING / MOST / CATEGORY CARDS */
+  .trendingCard,
+  .mostCards,
+  .categoryCards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .trendingCard .card img,
+  .mostCards .cardImg img,
+  .category .card .cardImg img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* MAIN CONTENT (ABOUT / HOTEL PAGES) */
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 20px;
+  }
+
+  /* FORM */
+  .formContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .formContainer form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* FOOTER */
+  .footer {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
